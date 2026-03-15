@@ -1,10 +1,9 @@
 #include "iostm8s103f3.h"
+#include "main.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <intrinsics.h>
-#define HSI_MODE 0xE1
-#define LSI_MODE 0xD2
-#define HSE_MODE 0xB4
+
 
 volatile uint32_t SysTick = 0;
 
